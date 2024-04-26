@@ -17,8 +17,9 @@ const datosDelPedido = document.getElementById("datosDelPedido");
 const fechaPedido = document.getElementById("fechaPedido");
 const botonAgregar = document.getElementById("btnAgregar");
 
+// leerDatos2();
 
-leerDatos2();
+
 
 document.querySelector(".formpedido").addEventListener("submit", function(e) {
     e.preventDefault();
